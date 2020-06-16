@@ -1,0 +1,23 @@
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+  <script src="./index.js"></script>
+  <script>
+    const imageSize = 28;
+  </script>
+</head>
+<body>
+  <h1>Vanilla GAN Mnist</h1>
+  <canvas id="myCanvas" width="420" height="420" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+  <div id="predictions">
+
+  </div>
+  <div>
+
+        <input type="button" value="Run" onclick="runExample()">
+  </div>
+
+</body>
+</html>
