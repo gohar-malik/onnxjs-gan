@@ -1,9 +1,9 @@
 # Vanilla GAN on Mnist ONNX.js Example
-This is an attempt to run a Pytorch trained Vanilla GAN model in browser using HTTP server.
+This repo runs a Pytorch trained Vanilla GAN model in browser using HTTP server.
 It uses ONNX.js for the purpose.
 Details can be found at: https://github.com/microsoft/onnxjs
 
-This example shows:
+It shows:
 - How to create an InferenceSession
 - Load VanillaGAN_Mnist model
 - Use a 100 element random numbers vector from normal distribution as input Tensor
@@ -37,6 +37,8 @@ http://localhost:3000/onnxjs_gan/
 2. Copy the folder "onnxjs_gan" containing this and other files to the following path in the "onnxjs" repo folder:
     onnxjs/exampples/browser/
 
+## Screenshot of the model running in browser
+![alt text](https://github.com/gohar-malik/onnxjs-gan/blob/master/Sample.png?raw=true)
 
 ## Files in folder
 - **index.html**
